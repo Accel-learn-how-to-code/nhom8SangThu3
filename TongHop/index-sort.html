@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Bài tập Thuật toán sắp xếp dữ liệu Nhóm 8</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet" />
+  <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+  <link href="./css/sort.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="tm-container">
+    <div class="tm-text-white tm-page-header-container">
+      <i class="fas fa-mug-hot fa-2x tm-page-icon"></i>
+      <h1 class="tm-page-header">Nhóm 8</h1>
+    </div>
+    <div class="tm-main-content">
+      <div style="background-image: url(../img-sort/test1202.jpg);
+        background-position: center;
+        background-size: cover;
+        min-height: 425px;"></div>
+      <hr>
+      <!-- Coffee Menu -->
+      <section class="tm-section">
+        <h2 class="tm-section-header"><b>Báo cáo thực hành Nhóm 8</b></h2>
+        <div class="tm-responsive-table">
+          <table class="tm-text-table1">
+            <tr class="tm-tr-header">
+              <th class="test1"><b>Thành viên</b></th>
+              <th><b>Công việc</b></th>
+            </tr>
+            <tr>
+              <td class="tm-text-left">
+                <li>Dương Quốc Vương</li>
+              </td>
+              <td class="test2">Xây dựng hàm Sắp xếp trộn</td>
+            </tr>
+            <tr class="tr1">
+              <td class="tm-text-left">
+                <li>Huỳnh Phong Nhã</li>
+              </td>
+              <td class="test2">Xây dựng hàm Sắp xếp nổi bọt</td>
+            </tr>
+            <tr>
+              <td class="tm-text-left">
+                <li>Lương Huy Hoàng</li>
+              </td>
+              <td class="test2">Xây dựng hàm Sắp xếp bằng phương pháp chèn</td>
+            </tr>
+            <tr class="tr1">
+              <td class="tm-text-left">
+                <li>Võ Đình Hoàng Long</li>
+              </td>
+              <td class="test2">Xây dựng hàm Sắp xếp nhanh, thiết kế web</td>
+            </tr>
+            <tr>
+              <td class="tm-text-left">
+                <li>Phan Diệu Mây</li>
+              </td>
+              <td class="test2">Xây dựng hàm Sắp xếp trọn trực tiếp</td>
+            </tr>
+            <tr class="tr1">
+              <td class="tm-text-left">
+                <li>Phạm Duy Thanh</li>
+              </td>
+              <td class="test2">Test , sửa lỗi</td>
+            </tr>
+            <tr>
+              <td class="tm-text-left">
+                <li><b>Nguyễn Thành Đạt</b></li>
+              </td>
+              <td class="test2">Quản lý nhóm, Ghép code</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <!-- Tea Menu
+        <section class="tm-section">
+          <h2 class="tm-section-header">Tea Menu</h2>
+          <div class="tm-responsive-table">
+            <table>
+              <tr class="tm-tr-header">
+                <th>&nbsp;</th>
+                <th>Hot</th>
+                <th>Iced</th>
+                <th>Addon</th>
+              </tr>
+              <tr>
+                <td class="tm-text-left">Pure White Milk</td>
+                <td>$5</td>
+                <td>$10</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="tm-text-left">Hong Kong Tea</td>
+                <td>$8</td>
+                <td>$12</td>
+                <td>$4</td>
+              </tr>
+              <tr>
+                <td class="tm-text-left">Taiwan Tea</td>
+                <td>$4</td>
+                <td>$10</td>
+                <td>$4</td>
+              </tr>
+              <tr>
+                <td class="tm-text-left">Bubble Tea</td>
+                <td>$8</td>
+                <td>$12</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="tm-text-left">Mixed Fruit Tea</td>
+                <td>$10</td>
+                <td>$10</td>
+                <td>$8</td>
+              </tr>
+              <tr>
+                <td class="tm-text-left">Original Tea</td>
+                <td>$12</td>
+                <td>$12</td>
+                <td>-</td>
+              </tr>
+            </table>
+          </div>
+        </section> -->
+      <!-- Special Items -->
+      <section class="tm-section">
+        <h2 class="tm-section-header"><b>Thảo luận làm bài.</b></h2>
+        <div class="tm-special-items">
+          <figure class="tm-special-item">
+            <img src="img-sort/thaoluan4.jpg" alt="Image" class="zoom" />
+            <!-- <figcaption>
+                <span class="tm-item-name">Anything here ?</span>
+              </figcaption> -->
+          </figure>
+          <figure class="tm-special-item">
+            <img src="img-sort/thaoluan5.jpg" alt="Image" class="zoom" />
+            <!-- <figcaption>
+                <span class="tm-item-name">Anything here ?</span>
+              </figcaption> -->
+          </figure>
+          <figure class="tm-special-item">
+            <img src="img-sort/thaoluan6.jpg" alt="Image" class="zoom" />
+            <!-- <figcaption>
+                <span class="tm-item-name">Anything here ?</span>
+              </figcaption> -->
+          </figure>
+        </div>
+      </section>
+      <hr />
+      <!-- About our cafe -->
+      <section class="tm-section tm-section-small">
+        <h2 class="tm-section-header"><b>Đề bài</b></h2>
+        <ul class="ul2">
+          <p>
+            Thuật toán sắp xếp dữ liệu.
+          </p>
+          <li>Sắp xếp nổi bọt.</li>
+          <li>Sắp xếp chọn trực tiếp.</li>
+          <li>Sắp xếp bằng phương pháp chèn.</li>
+          <li>Sắp xếp trộn.</li>
+          <li>Sắp xếp nhanh.</li>
+        </ul>
+      </section>
+      <hr>
+      <section class="tm-section tm-section-small">
+        <h2 class="tm-section-header"><b>Kinh nghiệm đạt được</b></h2>
+        <ul class="ul2">
+          <li>Cải thiện tinh thần làm việc nhóm.</li>
+          <li>Tinh thần nhóm đoàn kết hơn.</li>
+          <li>Biết cách chia sẻ kiến thức, giảng bài cho người trong nhóm.</li>
+          <li>Học hỏi thêm nhiều điều về các cách sắp xếp dữ liệu và làm web.</li>
+        </ul>
+      </section>
+      <hr>
+      <!-- About our cafe -->
+      <div class="d1">
+        <button class="bt1"
+          onclick="window.location.href = 'https://drive.google.com/file/d/1ekFFtgX_M-V6vPbtC_OG6lrNB1cv27aA/view?usp=sharing';">
+          <h2>BÁO CÁO</h2>
+        </button>
+      </div>
+      <hr>
+      <div id="code-area"
+        style="height: 500px; overflow: auto; box-sizing: border-box; padding: 10px; background-color: gray;">
+        <script src="https://gist.github.com/Accel-learn-how-to-code/dcb8f0bd2a039f4b96cf5b99811b4e1a.js"></script>
+      </div>
+      <hr>
+      <div class="d1">
+        <button class="bt1"
+          onclick="window.location.href = 'https://drive.google.com/file/d/1pFWuIHBUS5gZFZKfQB0XTeb9uQeqMd3O/view?usp=sharing';">
+          <h2>KẾT QUẢ</h2>
+        </button>
+      </div>
+      <hr>
+      <div id="KQ1" style="width: 100%;
+        height: 300px;
+        overflow: auto;
+        box-sizing: border-box;
+        background: gray;
+        padding: 10px;">
+        <img src="img-sort/sortKQ.png" alt="">
+      </div>
+      <hr>
+      <div class="d1">
+        <button class="bt1"
+          onclick="window.location.href = 'https://drive.google.com/file/d/1euupCfjpLfkkeqO1_F1ENZqR-N6deUrN/view?usp=sharing';">
+          <h2>CODE</h2>
+        </button>
+      </div>
+      <hr />
+      <!-- <div id="code-area" style="height: 500px; overflow: auto; box-sizing: border-box; padding: 10px; background-color: lightgray;">
+          <script src="https://onlinegdb.com/embed/js/HyO0UxV3r?theme=dark"></script>
+        </div> -->
+      <div id="code-area"
+        style="height: 500px; overflow: auto; box-sizing: border-box; padding: 10px; background-color: gray;">
+        <script src="https://gist.github.com/Accel-learn-how-to-code/9c51a63ef253c8ba9f7ac66d42231595.js"></script>
+      </div>
+      <style type="text/css">
+        .gist .blowcode {
+          font-size: 1.3em;
+          overflow: wrap;
+        }
+
+        .gist .blow-wrapper {
+          height: 500px;
+          overflow: auto;
+        }
+      </style>
+      <hr>
+      <!-- Talk to us -->
+      <section class="tm-section tm-section-small">
+        <h2 class="tm-section-header">Nhóm 8</h2>
+        <p class="tm-mb-0">
+          Bài thực hành thuyết trình của nhóm 8 sáng thứ ba.
+          <a href="https://drive.google.com/file/d/1euupCfjpLfkkeqO1_F1ENZqR-N6deUrN/view?usp=sharing"
+            target="_blank">Download.</a>
+        </p>
+        <div class="tm-social-icons">
+          <div class="tm-social-link-container">
+            <a href="https://www.facebook.com/hoanglong.vo.3998" class="tm-social-link">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </div>
+          <div class="tm-social-link-container">
+            <a href="https://twitter.com/VHongLo65045665" class="tm-social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="tm-social-link-container">
+            <a href="https://twitter.com/VHongLo65045665" class="tm-social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+          <div class="tm-social-link-container">
+            <a href="https://twitter.com/VHongLo65045665" class="tm-social-link">
+              <i class="fab fa-pinterest"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p class="tm-text-white tm-footer-text">
+        Copyright &copy; 2020. Design by:
+        <a href="https://www.facebook.com/hoanglong.vo.3998" class="tm-footer-link">Võ Hoàng Long</a>
+      </p>
+    </footer>
+  </div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script>
+    $(function () {
+      // Adjust intro image height based on width.
+      $(window).resize(function () {
+        var img = $("#tm-intro-img");
+        var imgWidth = img.width();
+
+        // 640x425 ratio
+        var imgHeight = (imgWidth * 425) / 640;
+
+        if (imgHeight < 300) {
+          imgHeight = 300;
+        }
+
+        img.css("min-height", imgHeight + "px");
+      });
+    });
+  </script>
+</body>
+
+</html>
